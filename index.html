@@ -1,12 +1,109 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
+    <title>Проект "Седона"</title>
   </head>
   <body>
+    
+    <div class="wrap"></div>
+    
+    <header class="header">
+     <nav class="menu">
+      <ul class="menu-list">
+        <li class="menu-item"><a href="#" class="menu-item"></a>Информация</a></li>
+        <li class="menu-item"><a href="#" class="menu-item"></a>Фото и Видео</a></li>
+        <li class="menu-item"><a href="#" class="menu-item"></a>Карта штата</a></li>
+        <li class="menu-item"><a href="#" class="menu-item"></a>Гостиницы</a></li>
+      </ul>
+    </nav>
+    <a>
+      <img class="logo" src="logotype.jpg" alt="logo" width="200" height="100">
+    </a>
+  </header>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
 
+
+<main>  
+  <div class="advertising-poster">
+    <img scr="advertising-poster.jpg" alt="poster"width="450" height="370">
+    </div>
+  
+  <article class="argument">
+    <header class="argument-header">
+      <h1 class="argument-title">СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО</h1>
+      <p class="argument-description">РАССМОТРИМ 5 ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ ЧЕМ ГРАНД КАНЬОН!</p>
+      </header>
+  </article>
+  
+  
+  <!--Основная интересующая информация сайта-->
+  
+
+  <div class="search">
+    <h2 class="search-title">ЗАИНТЕРЕСОВАЛИСЬ?</h2>
+    <p class="search-description">УКАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ</p>
+    <p><a href="hotel.html">ПОИСК ГОСТИНИЦ В СЕДОНЕ</a></p>
+  </div>
+</main>
+
+
+  
+  <div class="search-form-container">
+       <form class="search-form" action="https://htmlacademy.ru" method="post">
+        <div class="search-form-row">
+        <label class="search-form-lable" for="form">Дата заезда</label>
+        <input class="search-form-field" type="text" id="form">
+        <button type="button" class="search-form-calendar">Календарь</button>
+  </div>
+  <div class="search-form-row">
+      <label class="search-form-lable" for="to">Дата выезда</label>
+      <input class="search-form-field" type="text" id="to">
+      <button type="button" class="search-form-calendar">Календарь</button>
+    </div>
+  <div class="search-form-row">
+      <div class="search-form-col">
+          <label class="search-form-lable" for="number1">Взрослые</label>
+          <div class="number">
+            <button class="number-btn number-btn-minus">Минус</button>
+            <input class="number-field" type="text" id="number1">
+            <button class="number-btn number-btn-plus">Плюс</button>
+      </div>
+    </div>
+    <div class="search-form-col">
+        <label class="search-form-lable" for="number2">Дети</label>
+        <div class="number">
+            <button class="number-btn number-btn-minus">Минус</button>
+            <input class="number-field" type="text" id="number2">
+            <button class="number-btn number-btn-plus">Плюс</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="find-btn" type="submit">Найти</button>
+  </form>
+</div>
+
+ <footer class="footer">
+    <div class="footer-column">
+      <a href="#" class="hashtag">#visitsedona</a>
+    </div>
+    <div class="footer-column">
+      <div class="public">
+        <a href="#" class="public-tw">Твиттер</a>
+        <a href="#" class="public-fb">Фуйсбук</a>
+        <a href="#" class="public-yt">Ютуб</a>
+      </div>
+    </div>
+    <div class="footer-column">
+      <div class="copyright">
+        Webside by
+        <a href="#" class="copyright-link">
+          <img src="logohtml.jpg" width="100" height="50">
+        </a>
+      </div>
+     </div>
+  </footer>
+  
   </body>
 </html>
