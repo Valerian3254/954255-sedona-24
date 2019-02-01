@@ -7,13 +7,13 @@
 
   
     <header class="header">
-     <img class="logo" src="img/logo.png" alt="logo" width="138" height="70">
+     <img class="logo" src="img/logo.png" width="138" height="70" alt="Логотип сайта Седоны">
      <nav class="menu">
       <ul class="menu-list">
-        <li class="menu-item"><a href="#" class="menu-item"></a>Информация</a></li>
-        <li class="menu-item"><a href="#" class="menu-item"></a>Фото и Видео</a></li>
-        <li class="menu-item"><a href="#" class="menu-item"></a>Карта штата</a></li>
-        <li class="menu-item"><a href="#" class="menu-item"></a>Гостиницы</a></li>
+        <li><a href="info.html">Информация</a></li>
+        <li><a href="content.html">Фото и Видео</a></li>
+        <li> <a href="map.html">Карта штата</a></li>
+        <li> <a href="catalog.html">Гостиницы</a></li>
       </ul>
     </nav>
   </header>
@@ -22,7 +22,7 @@
 
 <main>  
   <div class="advertising-poster">
-   <img src="img/welcome.svg" alt="welcome to sedona" width="459" height="353">
+   <img src="img/welcome.svg" alt="Добро пожаловать на сайт города Седоны" width="459" height="353">
     </div>
   
   <article class="argument">
@@ -39,22 +39,22 @@
   <div class="search">
     <h2 class="search-title">ЗАИНТЕРЕСОВАЛИСЬ?</h2>
     <p class="search-description">УКАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ</p>
-    <p><a href="hotel.html">ПОИСК ГОСТИНИЦ В СЕДОНЕ</a></p>
+    <p>ПОИСК ГОСТИНИЦ В СЕДОНЕ</p>
   </div>
 </main>
 
 
   
   <div class="search-form-container">
-       <form class="search-form" action="https://htmlacademy.ru" method="post">
-        <div class="search-form-row">
-        <label class="search-form-lable" for="form">Дата заезда</label>
-        <input class="search-form-field" type="text" id="form">
-        <button type="button" class="search-form-calendar">Календарь</button>
+  <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
+    <div class="search-form-row">
+      <label class="search-form-lable" for="form">Дата заезда</label>
+      <input type="text" name="date" value="24 Апреля 2017">
+      <button type="button" class="search-form-calendar">Календарь</button>
   </div>
   <div class="search-form-row">
       <label class="search-form-lable" for="to">Дата выезда</label>
-      <input class="search-form-field" type="text" id="to">
+      <input type="text" name="date" value="4 Июля 2017">
       <button type="button" class="search-form-calendar">Календарь</button>
     </div>
   <div class="search-form-row">
@@ -62,7 +62,7 @@
           <label class="search-form-lable" for="number1">Взрослые</label>
           <div class="number">
             <button class="number-btn number-btn-minus">Минус</button>
-            <input class="number-field" type="text" id="number1">
+            <input type="text" name="number" value="2">
             <button class="number-btn number-btn-plus">Плюс</button>
       </div>
     </div>
@@ -70,32 +70,31 @@
         <label class="search-form-lable" for="number2">Дети</label>
         <div class="number">
             <button class="number-btn number-btn-minus">Минус</button>
-            <input class="number-field" type="text" id="number2">
+            <input type="text" name="number" value="0">
             <button class="number-btn number-btn-plus">Плюс</button>
           </div>
         </div>
       </div>
-    </div>
-    <button class="find-btn" type="submit">Найти</button>
+    <button class="button" type="submit">Найти</button>
   </form>
 </div>
 
  <footer class="footer">
     <div class="footer-column">
-      <a href="#" class="hashtag">#visitsedona</a>
+        <a href="https://twitter.com/hashtag/visitsedona" class="block hashtag">#visitsedona</a>
     </div>
     <div class="footer-column">
       <div class="public">
-        <a href="#" class="public-tw">Твиттер</a>
-        <a href="#" class="public-fb">Фуйсбук</a>
-        <a href="#" class="public-yt">Ютуб</a>
+        <a href="https://twitter.com/SedonaAZ" class="public-tw">Твиттер</a>
+        <a href="https://www.facebook.com/VisitSedona" class="public-fb">Фуйсбук</a>
+        <a href="https://www.youtube.com/user/SedonaAZ1" class="public-yt">Ютуб</a>
       </div>
     </div>
     <div class="footer-column">
       <div class="copyright">
         Webside by
-        <a href="#" class="copyright-link">
-            <img src="img/logohtml.png" alt="logohtml" width="115" height="41">
+        <a href="https://htmlacademy.ru" class="copyright-link">
+            <img src="img/logohtml.png" alt="Логотип для посещения сайта htmlacademy" width="115" height="41">
         </a>
       </div>
      </div>
