@@ -1,3 +1,133 @@
+body {
+    margin: 0;
+
+    font-size: 14px;
+    line-height: 26px;
+    font-family: "PT Sans-Bold", Arial, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+
+    background-color: #ffffff;
+    background-image: url(img/bg.jpg)
+    
+}
+
+.logo {
+  width: 140px;
+  height: 71px;
+  background-image: url(img/logo.png);
+}
+
+a {
+text-decoration: none;
+}
+
+.menu {
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+
+    background-color: #ffffff;
+}
+
+.menu-list {
+  list-style: none;
+}
+
+.menu-list a {
+  color: #000000;
+}
+
+.menu-list a:hover {
+  color: #81b3d2
+}
+
 .advertising-poster {
- background-image: url(img/bg.jpg), 
+  width: 459px;
+  height: 353px;
+}
+
+main {
+    text-align: center;
+}
+
+h1 {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #000000;
+}
+
+h1 + p {
+    padding-top: 12px;
+}
+
+p.argument-description {
+    font-size: 14px;
+    font-weight: normal;
+    color: #333333;
+    font-family: PTSans-Regular, Arial, sans-serif;
+}
+
+h2 {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #000;
+}
+
+.search-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    line-height: 36px;
+}
+
+p.search-description {
+    font-size: 14px;
+    font-weight: normal;
+    color: #333333;
+    font-family: PTSans-Regular, Arial, sans-serif;
+}
+
+.search-hotels {
+    cursor: pointer;
+    font-size: 21px;
+    padding: 12px 0;
+    line-height: 26px;
+    font-weight: bold;
+    background-color: #766357;
+}
+
+.search-hotels {
+    list-style: none;
+}
+
+.search-hotels a {
+    color: #ffffff;
+}
+
+.search-form-container {
+    text-align: center;
+}
+
+.search-form-lable {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.footer.footer-column {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.copyright {
+    font-size: 14;
+    line-height: 26px;
+    font-weight: normal;
+    color: #333333;
 }
