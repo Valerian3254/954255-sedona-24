@@ -52,14 +52,14 @@ main {
     text-align: center;
 }
 
-h1 {
+.argument-title {
     font-size: 21px;
     line-height: 26px;
     font-weight: bold;
     color: #000000;
 }
 
-h1 + p {
+.argument-title + p {
     padding-top: 12px;
 }
 
@@ -70,18 +70,11 @@ p.argument-description {
     font-family: PTSans-Regular, Arial, sans-serif;
 }
 
-h2 {
-    font-size: 21px;
-    line-height: 26px;
-    font-weight: bold;
-    color: #000;
-}
-
 .search-title {
     font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 30px;
     line-height: 36px;
+    font-weight: bold;
+    color: #000;
 }
 
 p.search-description {
@@ -130,4 +123,45 @@ p.search-description {
     line-height: 26px;
     font-weight: normal;
     color: #333333;
+}
+
+
+
+/* стили для каталога */
+
+
+
+.hotel-title {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #000;
+}
+
+.hotel-block {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;
+    color: #333333
+}
+
+.btn-blue {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: bold;
+    color: #ffffff
+}
+
+.btn-brown {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: bold;
+    color: #ffffff
+}
+
+.hotel-rate-text {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;
+    color: #333333
 }
