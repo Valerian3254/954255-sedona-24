@@ -17,6 +17,8 @@ body {
   width: 140px;
   height: 71px;
   background-image: url(img/logo.png);
+  display: block;
+  margin: 0 auto;
 }
 
 a {
@@ -48,8 +50,17 @@ text-decoration: none;
   height: 353px;
 }
 
-main {
+.sedona {
     text-align: center;
+}
+
+.search-form-container {
+    text-align: center;
+}
+
+.advertising-poster {
+    display: block;
+     margin: 0 auto;
 }
 
 .argument-title {
@@ -128,7 +139,6 @@ p.search-description {
 
 
 /* стили для каталога */
-
 
 
 .hotel-title {
